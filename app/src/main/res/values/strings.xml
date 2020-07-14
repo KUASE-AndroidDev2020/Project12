@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Fitness Motivation</string>
+
+    <string-array name="option">
+        <item>Strength</item>>
+        <item>Hypertrophy</item>
+    </string-array>
+
+    <string-array name="Good">
+        <item>Good</item>
+        <item>Fine</item>
+        <item>Not Good</item>
+        <item>Bad</item>
+    </string-array>
+
 </resources>
+
