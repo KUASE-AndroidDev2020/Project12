@@ -17,12 +17,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private Button button;
     private FloatingActionButton floatingActionButton4;
     private FloatingActionButton floatingActionButton6;
+    private Button button8;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calender);
+        setContentView(R.layout.activity_main);
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +46,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             @Override
             public void onClick(View v) {
                 openCalenderActivity();
+            }
+        });
+
+        button8 = findViewById(R.id.button8);
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openInfoActivity();
             }
         });
 
@@ -77,6 +86,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void openCalenderActivity(){
         Intent intent = new Intent(this,CalenderActivity.class);
+        startActivity(intent);
+    }
+
+    public void openInfoActivity(){
+        Intent intent = new Intent(this,InfoActivity.class);
         startActivity(intent);
     }
 }
