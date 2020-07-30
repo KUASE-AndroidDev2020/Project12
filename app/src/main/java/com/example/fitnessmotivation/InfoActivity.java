@@ -36,4 +36,15 @@ public class InfoActivity extends AppCompatActivity {
         Intent toLink4 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.transparentlabs.com/pages/calculator"));
         startActivity(toLink4);
     }
+
+
+    public void goToLink5(View view) {
+        Intent toLink5 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.helpguide.org/articles/healthy-living/the-mental-health-benefits-of-exercise.htm"));
+        startActivity(toLink5);
+    }
+
+    public void goToLink6(View view) {
+        Intent toLink6 = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.precisionnutrition.com/macros-vs-calories"));
+        startActivity(toLink6);
+    }
 }

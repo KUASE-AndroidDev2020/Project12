@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         });
 
         floatingActionButton4 = findViewById(R.id.floatingActionButton4);
-        floatingActionButton4.setOnClickListener(new View.OnClickListener() {
+        floatingActionButton4.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openRecordActivity();
+                openWorkoutActivity();
             }
         });
 
@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         startActivity(intent);
     }
 
-    public void openRecordActivity(){
-        Intent intent = new Intent(this,RecordActivity.class);
+    public void openWorkoutActivity(){
+        Intent intent = new Intent(this,WorkoutActivity.class);
         startActivity(intent);
     }
 

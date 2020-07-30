@@ -453,7 +453,7 @@
                             android:id="@+id/textView46"
                             android:layout_width="175dp"
                             android:layout_height="66dp"
-                            android:text="Optimizing your calorie and macro nutritional intake is the most important thing you can do to help you achieve your fitness goals... even more important than the..."
+                            android:text="Optimizing your calorie and macro nutritional intake is the most important thing you can do to help you achieve your fitness goals even more important than the..."
                             android:textColor="#302929"
                             android:textSize="10sp"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -496,14 +496,108 @@
                     app:layout_constraintVertical_bias="0.479" />
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="135dp"
-                    android:width="415dp"
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="134dp"
                     android:background="@drawable/border3"
-                    android:text="5">
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView18"
+                    app:layout_constraintVertical_bias="0.32999998">
 
-                </TextView>
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="205dp"
+                        android:layout_height="134dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView51"
+                        app:layout_constraintTop_toTopOf="@+id/textView51"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="161dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.065"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.078"
+                            app:srcCompat="@drawable/exercise_happy" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="205dp"
+                        android:layout_height="134dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+                        app:layout_constraintEnd_toEndOf="@+id/textView51"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                        app:layout_constraintTop_toTopOf="@+id/textView51"
+                        app:layout_constraintVertical_bias="1.0">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="37dp"
+                            android:layout_gravity=""
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="bottom"
+                            android:text="Mental Benefits"
+                            android:textColor="#070707"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.92"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.067" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="184dp"
+                            android:layout_height="62dp"
+                            android:text="Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life...."
+                            android:textColor="#302929"
+                            android:textSize="10sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.92"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.132" />
+
+                        <Button
+                            android:id="@+id/button50"
+                            android:layout_width="63dp"
+                            android:layout_height="29dp"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Go to"
+                            android:textSize="8sp"
+                            android:onClick="goToLink5"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.949"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.208" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view5"
@@ -518,14 +612,108 @@
                     app:layout_constraintVertical_bias="0.479" />
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="135dp"
-                    android:width="415dp"
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="134dp"
                     android:background="@drawable/border3"
-                    android:text="6">
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView18"
+                    app:layout_constraintVertical_bias="0.32999998">
 
-                </TextView>
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="205dp"
+                        android:layout_height="134dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView51"
+                        app:layout_constraintTop_toTopOf="@+id/textView51"
+                        app:layout_constraintVertical_bias="0.0">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="161dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.065"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.078"
+                            app:srcCompat="@drawable/maxresdefault" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="205dp"
+                        android:layout_height="134dp"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView51"
+                        app:layout_constraintEnd_toEndOf="@+id/textView51"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                        app:layout_constraintTop_toTopOf="@+id/textView51"
+                        app:layout_constraintVertical_bias="1.0">
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="37dp"
+                            android:layout_gravity=""
+                            android:fontFamily="@font/alfa_slab_one"
+                            android:gravity="bottom"
+                            android:text="Calories vs Macros"
+                            android:textColor="#070707"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.92"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.067" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="184dp"
+                            android:layout_height="62dp"
+                            android:text="There are some things just about everyone knows. Take this one: To lose fat, you need to watch what you eat. No one has to hire a coach for that advice. But knowing how to....."
+                            android:textColor="#302929"
+                            android:textSize="10sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.92"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.132" />
+
+                        <Button
+                            android:id="@+id/button50"
+                            android:layout_width="63dp"
+                            android:layout_height="29dp"
+                            android:layout_gravity="center_horizontal"
+                            android:text="Go to"
+                            android:textSize="8sp"
+                            android:onClick="goToLink6"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.949"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView27"
+                            app:layout_constraintVertical_bias="0.208" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view6"

@@ -9,14 +9,14 @@
     <TextView
         android:id="@+id/textView18"
         android:layout_width="413dp"
-        android:layout_height="122dp"
+        android:layout_height="75dp"
         android:background="#dc5147"
         android:fontFamily="@font/alfa_slab_one"
         android:gravity="center_horizontal"
         android:text="Upper Body Workout"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/relative"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,6 +26,7 @@
 
 
     <RelativeLayout
+        android:id="@+id/relative"
         android:layout_width="410dp"
         android:layout_height="636dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,7 +37,9 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="591dp"
-            android:layout_centerHorizontal="true">
+            android:layout_alignTop="@id/textView18"
+            android:layout_centerHorizontal="true"
+            tools:ignore="NotSibling">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -44,129 +47,355 @@
                 android:orientation="vertical">
 
 
-                <View
-                    android:id="@+id/view2"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="   BenchPress"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    </TextView>
+
+                <LinearLayout
+                    android:layout_width="380dp"
                     android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="1"/>
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/view20"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 100 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 100 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 100 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="   Weighted Pull ups"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/view21"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="   Barbell Shoulder Press"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
 
                 <View
-                    android:id="@+id/view3"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
+                        android:id="@+id/view22"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 50 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 50 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 50 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="   Dumbell Row"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
+
+                    </TextView>
+
+                <LinearLayout
+                    android:layout_width="380dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="2">
+                    android:orientation="vertical">
 
-                </TextView>
+                    <View
+                        android:id="@+id/view23"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
 
-                <View
-                    android:id="@+id/view4"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 45 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 45 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 45 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="380dp"
                     android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="3">
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
 
-                </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="Incline Bench Press"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
 
-                <View
-                    android:id="@+id/view5"
+                    </TextView>
+
+                    <View
+                        android:id="@+id/view24"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 60 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 60 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 60 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
-
-                <TextView
-                    android:layout_width="wrap_content"
                     android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="4">
+                    android:orientation="vertical">
 
-                </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#dc5147"
+                        android:fontFamily="@font/alfa_slab_one"
+                        android:text="Weighted Pull ups"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp">
 
-                <View
-                    android:id="@+id/view6"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
+                    </TextView>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="5">
+                    <View
+                        android:id="@+id/view25"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="#FFFFFF"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.479" />
 
-                </TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 10 reps RPE:8"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
 
-                <View
-                    android:id="@+id/view7"
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp"
-                    android:background="#dc5417"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.479" />
+                    </TextView>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="135dp"
-                    android:width="415dp"
-                    android:background="#FFFFFF"
-                    android:text="6">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
 
-                </TextView>
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="1. 10 Kg 8 reps RPE:10"
+                        android:textColor="#090808"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
 
                 <View
                     android:id="@+id/view8"
