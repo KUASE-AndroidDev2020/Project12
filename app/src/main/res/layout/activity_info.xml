@@ -56,7 +56,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout2"
+                        android:id="@+id/block1Left"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -85,6 +85,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block1Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -170,7 +171,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout3"
+                        android:id="@+id/block2Left"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -198,6 +199,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block2Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -282,7 +284,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout4"
+                        android:id="@+id/block3Left"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -310,6 +312,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block3Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -396,7 +399,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout5"
+                        android:id="@+id/block4Left"
                         android:layout_width="205dp"
                         android:layout_height="match_parent"
                         android:orientation="vertical"
@@ -423,6 +426,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block4Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -509,7 +513,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout2"
+                        android:id="@+id/block5Left"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -521,7 +525,7 @@
                         app:layout_constraintVertical_bias="0.0">
 
                         <ImageView
-                            android:id="@+id/imageView4"
+                            android:id="@+id/block5Image"
                             android:layout_width="161dp"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
@@ -538,6 +542,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block5Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -549,7 +554,7 @@
                         app:layout_constraintVertical_bias="1.0">
 
                         <TextView
-                            android:id="@+id/textView29"
+                            android:id="@+id/block5Text1"
                             android:layout_width="wrap_content"
                             android:layout_height="37dp"
                             android:layout_gravity=""
@@ -565,7 +570,7 @@
                             app:layout_constraintVertical_bias="0.067" />
 
                         <TextView
-                            android:id="@+id/textView34"
+                            android:id="@+id/block5Text2"
                             android:layout_width="184dp"
                             android:layout_height="62dp"
                             android:text="Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life...."
@@ -579,7 +584,7 @@
                             app:layout_constraintVertical_bias="0.132" />
 
                         <Button
-                            android:id="@+id/button50"
+                            android:id="@+id/block5Button"
                             android:layout_width="63dp"
                             android:layout_height="29dp"
                             android:layout_gravity="center_horizontal"
@@ -625,7 +630,7 @@
                     app:layout_constraintVertical_bias="0.32999998">
 
                     <LinearLayout
-                        android:id="@+id/linearLayout2"
+                        android:id="@+id/block6Left"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
@@ -654,6 +659,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/block6Right"
                         android:layout_width="205dp"
                         android:layout_height="134dp"
                         android:orientation="vertical"
