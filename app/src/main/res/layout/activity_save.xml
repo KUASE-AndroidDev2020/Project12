@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="match_parent"
-        android:layout_height="146dp"
+        android:layout_width="415dp"
+        android:layout_height="72dp"
         android:background="#dc5147"
         android:fontFamily="@font/alfa_slab_one"
         android:gravity="center"
@@ -58,7 +58,7 @@
                 app:srcCompat="@android:drawable/ic_menu_add" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/Weight1"
                 android:layout_width="142dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -87,7 +87,7 @@
                 app:srcCompat="@android:drawable/ic_menu_add" />
 
             <EditText
-                android:id="@+id/editTextNumber11"
+                android:id="@+id/Reps1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -121,7 +121,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber5"
+            android:id="@+id/Note1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -196,7 +196,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/Weight2"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -214,7 +214,7 @@
                 app:srcCompat="@android:drawable/ic_menu_add" />
 
             <EditText
-                android:id="@+id/editTextNumber4"
+                android:id="@+id/Reps2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -239,7 +239,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/imageButton16"
             android:layout_width="45dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -247,7 +247,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber6"
+            android:id="@+id/Note2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -292,7 +292,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/Weight3"
             android:layout_width="142dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -302,7 +302,7 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButton15"
             android:layout_width="45dp"
             android:layout_height="37dp"
             android:layout_gravity="center"
@@ -310,7 +310,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber4"
+            android:id="@+id/Reps3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -343,7 +343,7 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <EditText
-            android:id="@+id/editTextNumber6"
+            android:id="@+id/Note3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -358,8 +358,8 @@
         android:id="@+id/apply_text_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apply"
         android:background="#dc5147"
+        android:text="Do you want to save the data?"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -370,13 +370,15 @@
 
     <Switch
         android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
+        android:layout_width="70dp"
+        android:layout_height="26dp"
+        android:text="Yes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout12" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/save_button"
@@ -391,6 +393,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
         app:layout_constraintVertical_bias="0.808" />
+
+    <TextView
+        android:id="@+id/No"
+        android:layout_width="70dp"
+        android:layout_height="26dp"
+        android:text="No"
+        android:textColor="#151414"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        app:layout_constraintVertical_bias="0.485" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

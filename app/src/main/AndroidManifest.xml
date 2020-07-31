@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SaveActivity"></activity>
+        <activity android:name=".YoutubeBC"></activity>
+        <activity android:name=".YoutubeSLL" />
+        <activity android:name=".YoutubePU" />
+        <activity android:name=".SaveActivity" />
         <activity android:name=".OptionActivity" />
         <activity android:name=".WorkoutActivity" />
         <activity android:name=".InfoActivity" />

@@ -29,10 +29,11 @@ public class SaveActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_save);
 
-        editText = (EditText) findViewById(R.id.editText);
+        editText = (EditText) findViewById(R.id.Weight1);
         applyTextButton = (Button) findViewById(R.id.apply_text_button);
         saveButton = (Button) findViewById(R.id.save_button);
         switch1 = (Switch)findViewById(R.id.switch1);
+
 
         applyTextButton.setOnClickListener(new View.OnClickListener() {
             @Override

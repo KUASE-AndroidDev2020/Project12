@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Barbellcurl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
@@ -24,7 +25,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/BarbellCurl"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -37,7 +38,7 @@
         app:srcCompat="@drawable/bc" />
 
     <ImageView
-        android:id="@+id/button2"
+        android:id="@+id/Benchpress"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -50,7 +51,7 @@
         app:srcCompat="@drawable/bp" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/DBrow"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -63,7 +64,7 @@
         app:srcCompat="@drawable/dr" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/pullups"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -76,7 +77,7 @@
         app:srcCompat="@drawable/pu" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/sideraise"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -89,7 +90,7 @@
         app:srcCompat="@drawable/slr" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/DBSpress"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -102,7 +103,7 @@
         app:srcCompat="@drawable/sp" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/Dips"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"
@@ -115,7 +116,7 @@
         app:srcCompat="@drawable/what_muscles_do_dips_work_" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/Cpushdown"
         android:layout_width="139dp"
         android:layout_height="101dp"
         android:background="@drawable/border"

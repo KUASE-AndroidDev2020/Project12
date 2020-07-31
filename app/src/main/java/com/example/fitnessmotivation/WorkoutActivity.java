@@ -17,7 +17,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout);
 
-        floatingActionButton13 = findViewById(R.id.floatingActionButton13);
+        floatingActionButton13 = findViewById(R.id.Addworkoutbutton);
         floatingActionButton13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
